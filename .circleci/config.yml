@@ -31,7 +31,7 @@ jobs:
       - run:
           name: Front-End Lint
           command: |
-            npm run api:lint
+            npm run frontend:lint
       - run:
           name: Front-End Build
           command: |
@@ -39,7 +39,7 @@ jobs:
       - run:
           name: API Build
           command: |
-            npm run api:install
+            npm run api:build
   # deploy step will run only after manual approval
   deploy:
     docker:
