@@ -53,3 +53,5 @@ The e2e tests are using Protractor and Jasmine.
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
 
+## Link to deployed App
+http://elasticbeanstalk-us-east-1-961676737341.s3-website-us-east-1.amazonaws.com/
